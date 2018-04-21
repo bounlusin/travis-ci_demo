@@ -1,0 +1,11 @@
+User root
+Host server1
+HostName 39.105.63.228
+StrictHostKeyChecking no
+IdentityFile ~/.ssh/bounlusin_rsa
+IdentitiesOnly yes
+Protocol 2
+Compression yes
+ServerAliveInterval 60
+ServerAliveCountMax 20
+LogLevel INFO
