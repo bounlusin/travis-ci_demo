@@ -4,7 +4,6 @@ node_js:
 
 after_script:
   - scp -o StrictHostKeyChecking=no ./app.js server1:/root/code
-  - ssh server1
   - cd /root/code
   - node app.js
 
